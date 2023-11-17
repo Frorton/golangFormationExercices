@@ -16,5 +16,5 @@ func main() {
 	fmt.Println("------")
 
 	age := m["Q"]
-	fmt.Println("Age of Q :", age)
+	fmt.Println("Age of Q :", age) // Q hors map donc valeur 0
 }
