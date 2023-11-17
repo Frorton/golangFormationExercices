@@ -4,9 +4,9 @@ import "fmt"
 
 func main() {
 
-	fmt.Printf("true and true is : %v\n", (true && true)) // redundant but works out
+	// fmt.Printf("true and true is : %v\n", (true && true)) // redundant but works
 	fmt.Printf("true and false is : %v\n", (true && false))
-	fmt.Printf("true or true is : %v\n", (true || true)) // redundant but works out
+	// fmt.Printf("true or true is : %v\n", (true || true)) // commented to clear the yellow stuff
 	fmt.Printf("true or false is : %v\n", (true || false))
 	fmt.Printf("not true is : %v\n", !true)
 
